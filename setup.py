@@ -22,7 +22,7 @@ setuptools.setup(
         'License :: OSI Approved :: MIT License'
     ],
     py_modules=['rock'],
-      scripts=['rock.py'],
+      scripts=['rock.py','small_rocks.txt'],
     python_requires=">=3.6",
     keywords='rock'
 )
