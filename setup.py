@@ -9,8 +9,6 @@ setup(
     author="Jonathan Oakey",
     author_email="jonathandoakey@gmail.com",
     description="rock",
-    package_data={'': ['small_rocks.txt']},
-    include_package_data=True,
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/jonoak/rock.git",
