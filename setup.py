@@ -9,6 +9,7 @@ setuptools.setup(
     author="Jonathan Oakey",
     author_email="jonathandoakey@gmail.com",
     description="rock",
+    package_data={'': ['small_rocks.txt']},
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/jonoak/rock.git",
@@ -22,7 +23,7 @@ setuptools.setup(
         'License :: OSI Approved :: MIT License'
     ],
     py_modules=['rock'],
-      scripts=['rock.py','small_rocks.txt'],
+      scripts=['rock.py'],
     python_requires=">=3.6",
     keywords='rock'
 )
